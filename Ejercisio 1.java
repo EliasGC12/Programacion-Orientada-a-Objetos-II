@@ -1,10 +1,6 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-
-
-
-
 public class InvertBinaryTree {
     public Node invertTree(Node root) {
         if (root == null) return null;
@@ -74,7 +70,7 @@ public class MaximumDepthTest {
     }
 }
 
-// Clase Node necesaria para que funcione el test
+
 class Node {
     int value;
     Node left;
